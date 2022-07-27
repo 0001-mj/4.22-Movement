@@ -1,8 +1,9 @@
-# 4.21-Movement
-
-# you need UObject::GetName();
-
-in ProcessEvent
-
-do:
-
+# Example: 
+static void* ProcessEventHook(UObjecT* Object, UFunction* Function, void* Params);
+{
+       if (Function->GetName().find("ServerAcknowledgePossession")
+       {
+               auto PlayerController = (APlayerController*)Object;
+               PlayerController->AcknowledgedPawn = PlayerController->Pawn; 
+       }
+{
