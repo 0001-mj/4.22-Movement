@@ -9,3 +9,6 @@ static void* ProcessEventHook(UObjecT* Object, UFunction* Function, void* Params
                PlayerController->AcknowledgedPawn = PlayerController->Pawn; 
        }
 {
+
+# I Care Nothing About How It Looks Just Take The Code
+and yes its my fix.
