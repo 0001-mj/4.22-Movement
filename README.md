@@ -15,7 +15,7 @@ static APlayerController* SpawnPlayActor(UWorld*, UNetConnection* Connection, EN
        Pawn->bReplicateMovement = true;
        Pawn->OnRep_ReplicateMovent();
        Pawn->OnRep_ReplicatedMovement();
-       Pawn->OnRep_ReplicatedBasedMovement(); i think im too lazy to check the func name
+       Pawn->OnRep_ReplicatedBasedMovement(); // i think im too lazy to check the func name, if it throws an error change to OnRep_ReplicateBasedMovement();
 }
 
 # I Care Nothing About How It Looks Just Take The Code
